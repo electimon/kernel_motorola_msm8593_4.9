@@ -569,6 +569,15 @@ config ALI_DTB
 	  Only include Ali specific DTBs to limit the number that
 	  get built during kernel compilation.
 
+config HANNAH_DTB
+	depends on ARCH_QCOM
+	depends on MMI_DTB
+	default n
+	bool "hannah DTBs"
+	help
+	  Only include hannah specific DTBs to limit the number that
+	  get built during kernel compilation.
+
 config QTI_RPMH_API
 	bool "QTI RPMH (h/w accelerators) Communication API"
 	select MAILBOX

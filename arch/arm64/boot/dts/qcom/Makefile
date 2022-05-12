@@ -706,6 +706,9 @@ dtb-$(CONFIG_SANDERS_DTB) += \
 dtb-$(CONFIG_ALI_DTB) += \
 	sdm450-ali.dtb
 
+dtb-$(CONFIG_HANNAH_DTB) += \
+	msm8940-hannah-p0.dtb
+
 endif
 
 dtb-$(CONFIG_ARCH_SDM845_VM) += sdm845-vm.dtb
